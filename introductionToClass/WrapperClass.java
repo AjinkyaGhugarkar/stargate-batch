@@ -1,21 +1,22 @@
-package introductionToClass;
 
 public class WrapperClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-String s= "j8v4 pr09ram";
+		byte b = 5;
+		short s = 20;
+		int i = 25;
+		long l = 561;
 
-char [] ch = s.toCharArray();
-int add =0;
+		Byte bvalue = new Byte(b);// autoboxing
+		System.out.println(bvalue);
+		byte c = bvalue.byteValue();// unboxing
+		System.out.println(c);
 
-for(int i =0; i < ch.length; i++) {
-	if (Character.isDigit(ch[i])) {
-	System.out.println("Digit :"+ch[i]);	
-		add= add + Character.getNumericValue(ch[i]);
-	}
-}
-System.out.println("Addition of digits="+add);
+		Integer obj = new Integer(i);
+		int num = obj.intValue();
+		System.out.println(num);
+
 	}
 
 }
