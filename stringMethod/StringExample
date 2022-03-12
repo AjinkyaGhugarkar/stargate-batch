@@ -1,0 +1,23 @@
+public class Stringmethodexample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s = new String("Hello, I am automation Tester Hello");
+
+		int i = s.indexOf('l');
+		System.out.println(i);
+
+		int i1 = s.indexOf('l', 3);
+		System.out.println(i1);
+
+		int t = s.indexOf("Tester");
+		System.out.println("tester index =" + t);
+
+		t = s.indexOf("Hello", 23);
+		System.out.println("Hello index=" + t);
+
+		System.out.println(s.isEmpty());
+
+	}
+
+}
