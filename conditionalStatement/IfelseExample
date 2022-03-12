@@ -1,0 +1,18 @@
+package conditonalStarement;
+
+public class IfElseexample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int number = 5;
+		System.out.println("Before if");
+		if(number > 10) {
+			System.out.println("number is gretaer than 10");
+		}else {
+			System.out.println("number is smaller than 10");
+		}
+			System.out.println("after if");
+			
+
+		}
+	}
