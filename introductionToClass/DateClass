@@ -1,0 +1,16 @@
+package introductionToClass;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+public class Dateclass {
+
+	public static void main(String[] args) {
+		
+		
+Date date = new Date();
+System.out.println("Date="+date);
+
+SimpleDateFormat simple = new SimpleDateFormat("ddMMyyyy_hhmmss");
+System.out.println("Formatted date="+simple.format(date));
+}
+
+}
