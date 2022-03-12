@@ -1,0 +1,25 @@
+package arraysProgram;
+
+
+		public class SingleDiamensionArray{
+
+			public static void main(String[] args) {
+				char ch[]=new char[6];
+				                    
+			char[] ch1 = {'a','e','i','o','u','f'};
+			
+			
+		
+			System.out.println( ch1[0]);
+			System.out.println( ch1[1]);
+			System.out.println( ch1[2]);
+			System.out.println( ch1[3]);
+			System.out.println( ch1[4]);
+			System.out.println( ch1[5]);
+			
+			
+	
+
+	}
+
+}
